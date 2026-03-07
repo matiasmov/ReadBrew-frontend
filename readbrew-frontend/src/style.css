@@ -1,2 +1,19 @@
 
 @import "tailwindcss";
+
+
+@theme {
+
+  --color-primary: #582F0E;
+  --color-secondary: #7F4F24;
+  --color-brown-caramel: #936639;
+  --color-caramel: #A68A64;
+  --color-beige-khaki: #B6AD90;
+  --color-dried-sage: #C2C5AA;
+  --color-green-dried-sage: #A4AC86;
+  --color-dusty-olive: #656D4A;
+  --color-ebony: #414833;
+  --color-charcoal-brown: #333D29;
+  --color-brand-500: #123456; 
+
+}
