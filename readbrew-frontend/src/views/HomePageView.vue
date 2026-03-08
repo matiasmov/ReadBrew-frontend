@@ -140,10 +140,64 @@
               <span class="bg-beige-khaki px-2 py-0.5 border border-primary text-[10px] font-black uppercase"> ☕ Cappucino</span>
             </div>
           </div>
+          
 
         </div>
       </div>
     </section>
+
+<section class="max-w-5xl mx-auto px-4 mt-16 mb-12" data-aos="fade-up">
+      <div class="bg-white border-4 border-primary p-8 md:p-12 shadow-[8px_8px_0_0_var(--color-primary)] flex flex-col md:flex-row gap-10 items-center">
+
+        <div class="flex-1" data-aos="fade-right" data-aos-delay="200">
+          <h3 class="text-xl font-black text-secondary uppercase mb-2 tracking-widest">Nossa Missão</h3>
+          <h2 class="text-3xl md:text-4xl font-black text-primary uppercase leading-tight mb-4">
+            Mais que um app, <br/>um refúgio.
+          </h2>
+          <p class="text-dusty-olive font-bold mb-6 leading-relaxed">
+            A vida moderna é barulhenta. Criamos o ReadBrew para ser o seu momento de paz. Um lugar onde você pode se desconectar do caos, focar nos seus livros e conversar com quem compartilha da mesma paixão.
+          </p>
+          <a href="#" class="inline-flex items-center gap-2 text-primary font-black uppercase tracking-widest hover:text-caramel transition-colors group">
+            Conheça nossa história <span class="group-hover:translate-x-1 transition-transform">➡</span>
+          </a>
+        </div>
+
+        <div class="flex-1 flex flex-col gap-6 w-full">
+
+          <div class="bg-[#F9F6F0] border-2 border-primary p-4 flex items-center gap-4 hover:-translate-y-1 transition-transform shadow-sm" data-aos="fade-left" data-aos-delay="300">
+            <div class="w-12 h-12 shrink-0 bg-caramel border-2 border-primary rounded-full flex items-center justify-center text-xl pixelated-img">
+              🤝
+            </div>
+            <div>
+              <p class="font-black text-primary uppercase text-sm mb-1">Comunidade Real</p>
+              <p class="text-xs font-bold text-dusty-olive">Encontre pessoas que amam os mesmos gêneros literários que você.</p>
+            </div>
+          </div>
+
+          <div class="bg-[#F9F6F0] border-2 border-primary p-4 flex items-center gap-4 hover:-translate-y-1 transition-transform shadow-sm" data-aos="fade-left" data-aos-delay="500">
+            <div class="w-12 h-12 shrink-0 bg-green-dried-sage border-2 border-primary rounded-full flex items-center justify-center text-xl pixelated-img">
+              🌱
+            </div>
+            <div>
+              <p class="font-black text-primary uppercase text-sm mb-1">Crescimento Saudável</p>
+              <p class="text-xs font-bold text-dusty-olive">Acompanhe seu progresso de leitura sem a pressão de algoritmos.</p>
+            </div>
+          </div>
+
+          <div class="bg-[#F9F6F0] border-2 border-primary p-4 flex items-center gap-4 hover:-translate-y-1 transition-transform shadow-sm" data-aos="fade-left" data-aos-delay="700">
+            <div class="w-12 h-12 shrink-0 bg-brown-caramel border-2 border-primary rounded-full flex items-center justify-center text-xl pixelated-img">
+              🕰️
+            </div>
+            <div>
+              <p class="font-black text-primary uppercase text-sm mb-1">Seu Tempo, Suas Regras</p>
+              <p class="text-xs font-bold text-dusty-olive">Sem distrações ou rolagem infinita. Apenas você, seu café e sua estante.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
 
   </div>
 </template>
