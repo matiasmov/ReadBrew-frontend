@@ -197,7 +197,211 @@
         </div>
       </div>
     </section>
+
+   <section class="max-w-5xl mx-auto px-4 mt-24 mb-16">
+      <h2 class="text-3xl font-black uppercase text-primary text-center mb-16 tracking-widest" data-aos="fade-down">
+        O Fluxo do Sistema
+      </h2> 
+
+      <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6">
+
+        <div class="flex flex-col items-center w-full max-w-[260px] group" data-aos="zoom-in" data-aos-delay="100">
+          <div class="w-20 h-20 rounded-full bg-green-dried-sage border-4 border-primary shadow-[4px_4px_0_0_var(--color-primary)] flex items-center justify-center mb-4 z-10 group-hover:-translate-y-2 transition-transform">
+            <span class="text-3xl pixelated-img">📖</span>
+          </div>
+          
+          <div class="bg-white border-2 border-primary p-5 shadow-[4px_4px_0_0_var(--color-primary)] text-center relative w-full mt-2">
+            <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-caramel border-2 border-primary px-3 py-0.5 text-[10px] font-black uppercase tracking-widest text-primary">
+              Passo 01
+            </span>
+            <h3 class="font-black text-primary uppercase text-sm mb-2">Iniciar Leitura()</h3>
+            <p class="text-sm font-bold text-charcoal-brown leading-tight">
+              O usuário seleciona um livro na estante virtual e inicia uma nova aventura.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-4xl text-primary font-black pixelated-img animate-pulse my-2 md:my-0 md:mt-[-50px]" data-aos="fade-in" data-aos-delay="200">
+          <span class="hidden md:block">➔</span>
+          <span class="block md:hidden">⬇</span>
+        </div>
+
+        <div class="flex flex-col items-center w-full max-w-[260px] group" data-aos="zoom-in" data-aos-delay="300">
+          <div class="w-20 h-20 rounded-full bg-caramel border-4 border-primary shadow-[4px_4px_0_0_var(--color-primary)] flex items-center justify-center mb-4 z-10 group-hover:-translate-y-2 transition-transform">
+            <span class="text-3xl pixelated-img">☕</span>
+          </div>
+          
+          <div class="bg-white border-2 border-primary p-5 shadow-[4px_4px_0_0_var(--color-primary)] text-center relative w-full mt-2">
+            <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-caramel border-2 border-primary px-3 py-0.5 text-[10px] font-black uppercase tracking-widest text-primary">
+              Passo 02
+            </span>
+            <h3 class="font-black text-primary uppercase text-sm mb-2">Gerar Match()</h3>
+            <p class="text-sm font-bold text-charcoal-brown leading-tight">
+              O sistema analisa o gênero do livro e recomenda a bebida quente perfeita para o clima.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-4xl text-primary font-black pixelated-img animate-pulse my-2 md:my-0 md:mt-[-50px]" data-aos="fade-in" data-aos-delay="400">
+          <span class="hidden md:block">➔</span>
+          <span class="block md:hidden">⬇</span>
+        </div>
+
+        <div class="flex flex-col items-center w-full max-w-[260px] group" data-aos="zoom-in" data-aos-delay="500">
+          <div class="w-20 h-20 rounded-full bg-dusty-olive border-4 border-primary shadow-[4px_4px_0_0_var(--color-primary)] flex items-center justify-center mb-4 z-10 group-hover:-translate-y-2 transition-transform">
+            <span class="text-3xl pixelated-img">⭐</span>
+          </div>
+          
+          <div class="bg-white border-2 border-primary p-5 shadow-[4px_4px_0_0_var(--color-primary)] text-center relative w-full mt-2">
+            <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-caramel border-2 border-primary px-3 py-0.5 text-[10px] font-black uppercase tracking-widest text-primary">
+              Passo 03
+            </span>
+            <h3 class="font-black text-primary uppercase text-sm mb-2">Concluir Missão()</h3>
+            <p class="text-sm font-bold text-charcoal-brown leading-tight">
+              A leitura é finalizada. O usuário ganha XP e a resenha vai para o mural da comunidade.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    ```
+    <section class="max-w-5xl mx-auto px-4 mt-24 mb-16" data-aos="fade-up">
+      <div class="bg-white border-4 border-primary shadow-[8px_8px_0_0_var(--color-primary)] flex flex-col md:flex-row items-stretch">
+
+        <div class="w-full md:w-2/5 bg-primary p-6 md:p-8 text-white border-b-4 md:border-b-0 md:border-r-4 border-primary relative overflow-hidden flex flex-col justify-center">
+          
+          <h3 class="font-black text-caramel uppercase text-xs mb-6 tracking-widest text-center">Visualização do Perfil</h3>
+
+          <div class="w-24 h-24 mx-auto bg-[#F9F6F0] border-4 border-caramel flex items-center justify-center mb-4 shadow-[4px_4px_0_0_var(--color-caramel)] hover:scale-105 transition-transform cursor-pointer">
+            <span class="text-6xl pixelated-img">🧙‍♂️</span>
+          </div>
+
+          <div class="mb-8 w-full max-w-[220px] mx-auto">
+            <div class="flex justify-between text-[10px] font-black uppercase mb-2 text-beige-khaki tracking-wider">
+              <span>Nível 5: O Sábio</span>
+              <span>1200 / 2000 XP</span>
+            </div>
+            <div class="h-4 bg-charcoal-brown border-2 border-caramel w-full p-[2px]">
+              <div class="h-full bg-green-dried-sage w-[60%] animate-pulse"></div>
+            </div>
+          </div>
+
+          <div class="w-full max-w-[220px] mx-auto">
+            <p class="text-[10px] font-black text-caramel uppercase mb-3 text-center tracking-wider">Últimas Conquistas</p>
+            <div class="flex justify-center gap-3">
+              <div class="w-10 h-10 bg-dusty-olive border-2 border-caramel flex items-center justify-center shadow-sm hover:-translate-y-1 transition-transform" title="Viciado em Café"><span class="text-xl pixelated-img">☕</span></div>
+              <div class="w-10 h-10 bg-[#F9F6F0] border-2 border-white flex items-center justify-center shadow-sm hover:-translate-y-1 transition-transform" title="10 Livros Lidos"><span class="text-xl pixelated-img">📚</span></div>
+              <div class="w-10 h-10 bg-charcoal-brown border-2 border-gray-600 flex items-center justify-center opacity-50 grayscale" title="Bloqueado"><span class="text-xl pixelated-img">🦇</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full md:w-3/5 p-8 md:p-12 flex flex-col justify-center">
+          <h2 class="text-3xl font-black uppercase text-primary leading-tight mb-4">
+            Sua estante <br><span class="text-caramel">vale recompensas.</span>
+          </h2>
+          <p class="text-dusty-olive font-bold mb-8 leading-relaxed">
+            No ReadBrew, cada página virada e cada café avaliado se transformam em Pontos de Experiência (XP). Mas o que você faz com todo esse poder?
+          </p>
+
+          <div class="flex flex-col gap-6">
+            <div class="flex items-start gap-4 group">
+              <div class="text-3xl pixelated-img mt-1 group-hover:scale-110 transition-transform">🎭</div>
+              <div>
+                <h4 class="font-black text-primary uppercase text-sm">Desbloqueie Avatares</h4>
+                <p class="text-sm font-bold text-charcoal-brown leading-relaxed">Suba de nível para liberar novos personagens em pixel art para o seu perfil. Comece como um mero 'Iniciante' e torne-se um 'Mago das Palavras'.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 group">
+              <div class="text-3xl pixelated-img mt-1 group-hover:scale-110 transition-transform">🏆</div>
+              <div>
+                <h4 class="font-black text-primary uppercase text-sm">Colecione Conquistas</h4>
+                <p class="text-sm font-bold text-charcoal-brown leading-relaxed">Leu 3 livros de terror? Ganhe o selo <em>"Coragem de Aço"</em>. Só lê de madrugada? Desbloqueie a <em>"Coruja Noturna"</em>. Exiba suas medalhas no seu perfil.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 group">
+              <div class="text-3xl pixelated-img mt-1 group-hover:scale-110 transition-transform">👑</div>
+              <div>
+                <h4 class="font-black text-primary uppercase text-sm">Destaque na Taverna</h4>
+                <p class="text-sm font-bold text-charcoal-brown leading-relaxed">Jogadores com mais XP ganham molduras especiais em suas resenhas no Mural da Cafeteria. Sua opinião literária passará a valer ouro!</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    ```
     
+<section class="max-w-4xl mx-auto px-4 mt-24 mb-16" data-aos="fade-up">
+      <div class="bg-caramel border-4 border-primary p-6 md:p-10 shadow-[8px_8px_0_0_var(--color-primary)] relative mt-8">
+        
+        <div class="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 bg-red-500 border-4 border-primary rounded-full shadow-sm z-10">
+          <div class="w-2 h-2 bg-white rounded-full absolute top-1 left-1 opacity-60"></div>
+        </div>
+
+        <h2 class="text-2xl md:text-3xl font-black uppercase text-primary text-center mb-8 tracking-widest mt-2">
+          📌 Quadro de Avisos
+        </h2>
+
+        <div class="flex flex-col gap-4">
+          <details class="bg-white border-2 border-primary p-4 shadow-[4px_4px_0_0_var(--color-primary)] group cursor-pointer hover:-translate-y-1 transition-transform">
+            <summary class="font-black text-primary uppercase text-sm list-none flex justify-between items-center">
+              Vocês vendem livros ou café de verdade?
+              <span class="text-xl group-open:rotate-45 transition-transform text-caramel">➕</span>
+            </summary>
+            <p class="text-sm font-bold text-charcoal-brown mt-4 pt-4 border-t-2 border-dashed border-gray-200 leading-relaxed">
+              Não! O ReadBrew é um refúgio 100% virtual e gratuito. Nós não vendemos produtos físicos, apenas oferecemos um espaço aconchegante para você organizar suas leituras e brincar de combinar livros com bebidas.
+            </p>
+          </details>
+
+          <details class="bg-white border-2 border-primary p-4 shadow-[4px_4px_0_0_var(--color-primary)] group cursor-pointer hover:-translate-y-1 transition-transform">
+            <summary class="font-black text-primary uppercase text-sm list-none flex justify-between items-center">
+              Como funciona o "Match" de bebidas?
+              <span class="text-xl group-open:rotate-45 transition-transform text-caramel">➕</span>
+            </summary>
+            <p class="text-sm font-bold text-charcoal-brown mt-4 pt-4 border-t-2 border-dashed border-gray-200 leading-relaxed">
+              A nossa magia (o algoritmo do sistema) analisa o gênero literário e o clima da história que você está lendo para recomendar uma bebida que complete a atmosfera. Terror com expresso duplo, romance com latte, e assim por diante!
+            </p>
+          </details>
+
+          <details class="bg-white border-2 border-primary p-4 shadow-[4px_4px_0_0_var(--color-primary)] group cursor-pointer hover:-translate-y-1 transition-transform">
+            <summary class="font-black text-primary uppercase text-sm list-none flex justify-between items-center">
+              O site funciona no celular?
+              <span class="text-xl group-open:rotate-45 transition-transform text-caramel">➕</span>
+            </summary>
+            <p class="text-sm font-bold text-charcoal-brown mt-4 pt-4 border-t-2 border-dashed border-gray-200 leading-relaxed">
+              Com certeza! A taverna foi construída com design responsivo. Você pode atualizar seu progresso de leitura e postar no mural da cafeteria de qualquer lugar, direto do seu celular.
+            </p>
+          </details>
+        </div>
+
+      </div>
+    </section>
+    <footer class="bg-beige-khaki border-t-4 border-primary pt-10 pb-6 mt-24">
+      <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+
+        <div class="text-xl font-black text-primary flex items-center gap-2 tracking-tight">
+          <span class="text-3xl pixelated-img"></span> READBREW
+        </div>
+
+        <ul class="flex flex-wrap justify-center gap-6 text-xs font-bold text-dusty-olive uppercase tracking-widest">
+          <li><router-link to="/register" class="hover:text-caramel transition-colors">Criar Conta</router-link></li>
+          <li><a href="#" class="hover:text-caramel transition-colors">GitHub</a></li>
+          <li><a href="#" class="hover:text-caramel transition-colors">Termos de Uso</a></li>
+        </ul>
+
+      </div>
+
+      <div class="max-w-5xl mx-auto px-6 mt-8 pt-6 border-t border-primary/20 text-center text-[10px] font-bold text-charcoal-brown uppercase tracking-widest">
+        <p>Desenvolvido com ☕, código e pixel art. © 2026 ReadBrew.</p>
+      </div>
+    </footer>
+
+
 
   </div>
 </template>
