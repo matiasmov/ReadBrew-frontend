@@ -78,7 +78,7 @@
           </div>
           <h3 class="text-xl font-black text-primary uppercase mb-2">Café e Match</h3>
           <p class="text-sm font-bold text-dusty-olive">
-            Terminou um romance? Recomendo um Latte Macchiato. Suspense? Um Espresso puro. Combine leituras e bebidas!
+             Começou a ler um romance? Recomendo um Latte Macchiato. Suspense? Um Espresso puro. Combine leituras e bebidas!
           </p>
         </div>
 
@@ -88,7 +88,7 @@
           </div>
           <h3 class="text-xl font-black text-primary uppercase mb-2">Cultive Hábitos</h3>
           <p class="text-sm font-bold text-dusty-olive">
-            Desbloqueie selos de conquistas (badges fofinhas) e veja sua plantinha virtual crescer conforme você lê todos os dias.
+            Desbloqueie selos de conquistas (badges), personalize seu perfil e veja sua plantinha virtual crescer conforme a sua leitura!
           </p>
         </div>
 
@@ -155,7 +155,7 @@
             Mais que um app, <br/>um refúgio.
           </h2>
           <p class="text-dusty-olive font-bold mb-6 leading-relaxed">
-            A vida moderna é barulhenta. Criamos o ReadBrew para ser o seu momento de paz. Um lugar onde você pode se desconectar do caos, focar nos seus livros e conversar com quem compartilha da mesma paixão.
+            A vida moderna é barulhenta. Criamos o ReadBrew para ser o seu momento de paz. Um lugar onde você pode se desconectar do caos, focar nos seus livros e veja as críticas de quem compartilha da mesma paixão.
           </p>
           <a href="#" class="inline-flex items-center gap-2 text-primary font-black uppercase tracking-widest hover:text-caramel transition-colors group">
             Conheça nossa história <span class="group-hover:translate-x-1 transition-transform">➡</span>

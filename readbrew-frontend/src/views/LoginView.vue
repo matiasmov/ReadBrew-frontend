@@ -105,7 +105,7 @@ const handleLogin = async () => {
     await loginUser(form.email, form.password)
     
    
-    router.push('/cafeteria') // i'll change to 'Timeline'
+    router.push('/timeline')
     
   } catch (error) {
    

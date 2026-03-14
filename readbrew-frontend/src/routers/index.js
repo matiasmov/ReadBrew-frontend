@@ -3,12 +3,14 @@ import HomePage from '../views/HomePageView.vue'
 import LoginView from '../views/LoginView.vue'
 import RegisterView from '../views/RegisterView.vue'
 import Cafeteria from '../views/CafeteriaView.vue'
+import TimelineView from '../views/Timelineview.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomePage },
   { path: '/login', name: 'login', component: LoginView, meta: { requiresGuest: true } },
   { path: '/register', name: 'register', component: RegisterView, meta: { requiresGuest: true } },
-  { path: '/cafeteria', name: 'cafeteria', component: Cafeteria }
+  { path: '/cafeteria', name: 'cafeteria', component: Cafeteria },
+  { path: '/timeline', name: 'timeline', component: TimelineView, meta: {requiresGuest: true} }
 ]
 
 const router = createRouter({
@@ -24,7 +26,7 @@ router.beforeEach((to, from) => {
     if (!isAuthenticated) return { name: 'login' }; 
   } 
   else if (to.matched.some(record => record.meta.requiresGuest)) {
-    if (isAuthenticated) return { name: 'cafeteria' };
+    if (isAuthenticated) return { name: 'timeline' };
   } 
   
   return true; 
