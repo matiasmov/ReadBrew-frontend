@@ -64,7 +64,11 @@
         
         <div class="bg-white border-4 border-primary p-6 shadow-[6px_6px_0_0_var(--color-primary)] flex flex-col items-center text-center hover:-translate-y-2 transition-transform cursor-pointer">
           <div class="w-20 h-20 bg-brown-caramel border-4 border-primary rounded-full flex items-center justify-center mb-4 shadow-sm">
-            <span class="text-3xl pixelated-img">📚</span>
+             <img 
+              src="..\assets\icons\HomePageIcons\ic_book_fairytale.png" 
+              alt="Livro"
+              class="w-14 h-14 object-contain hover:scale-105 transition-transform duration-300"
+            />
           </div>
           <h3 class="text-xl font-black text-primary uppercase mb-2">Estante Virtual</h3>
           <p class="text-sm font-bold text-dusty-olive">
@@ -74,7 +78,11 @@
 
         <div class="bg-white border-4 border-primary p-6 shadow-[6px_6px_0_0_var(--color-primary)] flex flex-col items-center text-center hover:-translate-y-2 transition-transform cursor-pointer">
           <div class="w-20 h-20 bg-caramel border-4 border-primary rounded-full flex items-center justify-center mb-4 shadow-sm">
-            <span class="text-3xl pixelated-img">☕</span>
+             <img 
+              src="..\assets\icons\HomePageIcons\ic_coffee_bean.png" 
+              alt="Café"
+              class="w-15 h-15 object-contain hover:scale-105 transition-transform duration-300"
+            />
           </div>
           <h3 class="text-xl font-black text-primary uppercase mb-2">Café e Match</h3>
           <p class="text-sm font-bold text-dusty-olive">
@@ -84,7 +92,11 @@
 
         <div class="bg-white border-4 border-primary p-6 shadow-[6px_6px_0_0_var(--color-primary)] flex flex-col items-center text-center hover:-translate-y-2 transition-transform cursor-pointer">
           <div class="w-20 h-20 bg-green-dried-sage border-4 border-primary rounded-full flex items-center justify-center mb-4 shadow-sm">
-            <span class="text-3xl -img">🌱</span>
+            <img 
+              src="..\assets\icons\HomePageIcons\ic_tea_green.png" 
+              alt="Chá"
+              class="w-14 h-14 object-contain hover:scale-105 transition-transform duration-300"
+            />
           </div>
           <h3 class="text-xl font-black text-primary uppercase mb-2">Cultive Hábitos</h3>
           <p class="text-sm font-bold text-dusty-olive">
