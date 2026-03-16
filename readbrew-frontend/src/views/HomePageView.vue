@@ -47,7 +47,7 @@
           <div class="w-full max-w-[350px] aspect-square bg-dried-sage border-4 border-primary border-dashed flex flex-col items-center justify-center p-2 text-center transform rotate-3 hover:rotate-0 transition-transform duration-300 overflow-hidden">
             
             <img 
-              src="../assets/me_pixel_art.png" 
+              src="../assets/icons/HomePageIcons/me_pixel_art.png" 
               alt="Minha Pixel Art Fofa"
               class="w-full h-full object-contain pixelated-img hover:scale-105 transition-transform duration-300"
             />
