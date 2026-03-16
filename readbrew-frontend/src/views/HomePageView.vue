@@ -26,6 +26,7 @@
     <section class="max-w-5xl mx-auto px-4 pt-16 pb-12">
       <div class="bg-white border-4 border-primary p-8 md:p-12 shadow-[8px_8px_0_0_var(--color-primary)] flex flex-col-reverse md:flex-row items-center gap-10">
         
+        <!--i'll change this emoji--> 
         <div class="flex-1 text-center md:text-left">
           <div class="inline-block bg-caramel border-2 border-primary px-3 py-1 text-xs font-black uppercase text-primary mb-6 tracking-widest">
             🤓 Novo por aqui?
@@ -146,7 +147,7 @@
               <span class="text-xs font-black text-secondary">@mari_arts</span>
               <span class="text-xs">⭐⭐⭐⭐⭐</span>
             </div>
-            <p class="text-sm font-bold text-charcoal-brown mb-3">"Lendo romance de época cercada pelas minhas suculentas. Que paz."</p>
+            <p class="text-sm font-bold text-charcoal-brown mb-3">"ótimo romance para se ver em um domingo à noite. Que paz."</p>
             <div class="flex gap-2">
               <span class="bg-beige-khaki px-2 py-0.5 border border-primary text-[10px] font-black uppercase">Romance</span>
               <span class="bg-beige-khaki px-2 py-0.5 border border-primary text-[10px] font-black uppercase"> ☕ Cappucino</span>

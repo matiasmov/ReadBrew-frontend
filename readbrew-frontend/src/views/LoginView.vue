@@ -115,6 +115,7 @@ const handleLogin = async () => {
   }
 }
 </script>
+<!-- necessary to avoid blurring the image. -->
 
 <style scoped>
 .pixelated-img {
