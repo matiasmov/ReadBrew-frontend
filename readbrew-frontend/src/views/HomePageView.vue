@@ -111,43 +111,43 @@
           Mural da Cafeteria <span class="text-sm md:text-base lg:text-lg font-bold normal-case text-primary/70">(Últimas resenhas)</span>
         </h2>
         
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-5 lg:gap-6">
+       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-5 lg:gap-6">
           
-          <div class="bg-white border-2 border-primary p-4 md:p-5 lg:p-6 shadow-sm hover:rotate-1 transition-transform">
+          <div class="bg-white border-2 border-primary p-4 md:p-5 lg:p-6 shadow-sm hover:rotate-1 transition-transform flex flex-col h-full">
             <div class="flex items-center justify-between mb-2 md:mb-2.5 lg:mb-3">
               <span class="text-xs md:text-sm lg:text-base font-black text-secondary">@leitora_sofia</span>
               <span class="text-xs md:text-sm lg:text-base">⭐⭐⭐⭐⭐</span>
             </div>
             <p class="text-sm md:text-base lg:text-lg font-bold text-charcoal-brown mb-3 md:mb-3.5 lg:mb-4 leading-relaxed">"Suspense perfeito! Fiquei tão tenso que tive que virar um café preto forte!"</p>
-            <div class="flex gap-2 md:gap-2.5 lg:gap-3">
+            <div class="flex gap-2 md:gap-2.5 lg:gap-3 mt-auto">
               <span class="bg-beige-khaki px-2 md:px-2.5 py-0.5 md:py-1 border border-primary text-[10px] md:text-xs lg:text-sm font-black uppercase">Fantasia</span>
               <span class="bg-beige-khaki px-2 md:px-2.5 py-0.5 md:py-1 border border-primary text-[10px] md:text-xs lg:text-sm font-black uppercase">☕ Macchiato</span>
             </div>
           </div>
 
-          <div class="bg-[#F9F6F0] border-2 border-primary p-4 md:p-5 lg:p-6 shadow-sm transform -rotate-1 hover:rotate-0 transition-transform">
+          <div class="bg-[#F9F6F0] border-2 border-primary p-4 md:p-5 lg:p-6 shadow-sm transform -rotate-1 hover:rotate-0 transition-transform flex flex-col h-full">
             <div class="flex items-center justify-between mb-2 md:mb-2.5 lg:mb-3">
               <span class="text-xs md:text-sm lg:text-base font-black text-secondary">@Mari_arts</span>
               <span class="text-xs md:text-sm lg:text-base">⭐⭐⭐⭐</span>
             </div>
             <p class="text-sm md:text-base lg:text-lg font-bold text-charcoal-brown mb-3 md:mb-3.5 lg:mb-4 leading-relaxed">"O Hobbit foi ainda melhor acompanhado de um chá de camomila."</p>
-            <div class="flex gap-2 md:gap-2.5 lg:gap-3">
+            <div class="flex gap-2 md:gap-2.5 lg:gap-3 mt-auto">
               <span class="bg-beige-khaki px-2 md:px-2.5 py-0.5 md:py-1 border border-primary text-[10px] md:text-xs lg:text-sm font-black uppercase">Thriller</span>
               <span class="bg-beige-khaki px-2 md:px-2.5 py-0.5 md:py-1 border border-primary text-[10px] md:text-xs lg:text-sm font-black uppercase">🍵 Chá</span>
             </div>
           </div>
 
-          <div class="bg-white border-2 border-primary p-4 md:p-5 lg:p-6 shadow-sm transform rotate-1 hover:rotate-0 transition-transform hidden md:block">
+          <div class="bg-white border-2 border-primary p-4 md:p-5 lg:p-6 shadow-sm transform rotate-1 hover:rotate-0 transition-transform hidden md:flex flex-col h-full">
             <div class="flex items-center justify-between mb-2 md:mb-2.5 lg:mb-3">
               <span class="text-xs md:text-sm lg:text-base font-black text-secondary">@menoQuenteDosLivros</span>
-              <span class="text-xs md:text-sm lg:text-base">⭐⭐⭐⭐⭐</span>
+              <span class="text-xs md:text-sm lg:text-base">⭐⭐⭐</span>
             </div>
             <p class="text-sm md:text-base lg:text-lg font-bold text-charcoal-brown mb-3 md:mb-3.5 lg:mb-4 leading-relaxed">"ótimo romance para se ver em um domingo à noite. Que paz terrível."</p>
-            <div class="flex gap-2 md:gap-2.5 lg:gap-3">
+            <div class="flex gap-2 md:gap-2.5 lg:gap-3 mt-auto">
               <span class="bg-beige-khaki px-2 md:px-2.5 py-0.5 md:py-1 border border-primary text-[10px] md:text-xs lg:text-sm font-black uppercase">Romance</span>
               <span class="bg-beige-khaki px-2 md:px-2.5 py-0.5 md:py-1 border border-primary text-[10px] md:text-xs lg:text-sm font-black uppercase padding">☕ Cappucino</span>
             </div>
-          </div>
+        </div>
           
         </div>
       </div>
@@ -217,11 +217,11 @@
       </div>
     </section>
 
-    <section class="max-w-6xl mx-auto px-4 md:px-6 lg:px-6 mt-16 md:mt-24 lg:mt-32 mb-12 md:mb-16 lg:mb-20">
-      <div class="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8 lg:gap-10">
+   <section class="max-w-6xl mx-auto px-4 md:px-6 lg:px-6 mt-16 md:mt-24 lg:mt-32 mb-12 md:mb-16 lg:mb-20">
+      <div class="flex flex-col md:flex-row justify-center items-stretch gap-6 md:gap-8 lg:gap-10">
 
         <div class="flex flex-col items-center w-full max-w-[280px] md:max-w-[310px] lg:max-w-[340px] group" data-aos="zoom-in" data-aos-delay="100">
-          <div class="w-20 h-20 md:w-24 md:h-24 lg:w-26 lg:h-26 rounded-full bg-green-dried-sage border-4 border-primary shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] flex items-center justify-center mb-4 md:mb-5 lg:mb-6 z-10 group-hover:-translate-y-2 transition-transform">
+          <div class="w-20 h-20 md:w-24 md:h-24 lg:w-26 lg:h-26 rounded-full bg-green-dried-sage border-4 border-primary shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] flex items-center justify-center mb-4 md:mb-5 lg:mb-6 z-10 group-hover:-translate-y-2 transition-transform shrink-0">
             <img 
               src="../assets/icons/HomePageIcons/ic_shelf.png" 
               alt="Estante"
@@ -229,24 +229,24 @@
             />
           </div>
           
-          <div class="bg-white border-2 border-primary p-5 md:p-6 lg:p-8 shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] text-center relative w-full mt-2 md:mt-2.5 lg:mt-3">
+          <div class="flex-1 bg-white border-2 border-primary p-5 md:p-6 lg:p-8 shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] text-center relative w-full mt-2 md:mt-2.5 lg:mt-3">
             <span class="absolute -top-3 md:-top-3.5 lg:-top-4 left-1/2 -translate-x-1/2 bg-caramel border-2 border-primary px-3 md:px-3.5 lg:px-4 py-0.5 md:py-1 text-[10px] md:text-xs lg:text-sm font-black uppercase tracking-widest text-primary">
               Passo 01
             </span>
             <h3 class="font-black text-primary uppercase text-sm md:text-lg lg:text-xl mb-2 md:mb-2.5 lg:mb-3">Início</h3>
             <p class="text-sm md:text-base lg:text-lg font-bold text-charcoal-brown leading-tight">
-              O usuário seleciona um livro e o adiciona na sua própria estante virtual, podendo iniciá-lo                                                                                                                                                                                                                              
+              O usuário seleciona um livro e o adiciona na sua própria estante virtual, podendo iniciá-lo                                                                                                                                                                                                                                                                                               
             </p>
           </div>
         </div>
 
-        <div class="text-4xl md:text-5xl lg:text-6xl text-primary font-black pixelated-img animate-pulse my-2 md:my-0 md:mt-[-50px] lg:mt-[-60px]" data-aos="fade-in" data-aos-delay="200">
+        <div class="text-4xl md:text-5xl lg:text-6xl text-primary font-black pixelated-img animate-pulse my-2 md:my-0 md:mt-[30px] lg:mt-[35px] flex items-start justify-center" data-aos="fade-in" data-aos-delay="200">
           <span class="hidden md:block">➔</span>
           <span class="block md:hidden">⬇</span>
         </div>
 
         <div class="flex flex-col items-center w-full max-w-[280px] md:max-w-[310px] lg:max-w-[340px] group" data-aos="zoom-in" data-aos-delay="300">
-          <div class="w-20 h-20 md:w-24 md:h-24 lg:w-26 lg:h-26 rounded-full bg-caramel border-4 border-primary shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] flex items-center justify-center mb-4 md:mb-5 lg:mb-6 z-10 group-hover:-translate-y-2 transition-transform">
+          <div class="w-20 h-20 md:w-24 md:h-24 lg:w-26 lg:h-26 rounded-full bg-caramel border-4 border-primary shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] flex items-center justify-center mb-4 md:mb-5 lg:mb-6 z-10 group-hover:-translate-y-2 transition-transform shrink-0">
             <img 
               src="../assets/icons/HomePageIcons/ic_coffee_botton.png" 
               alt="Café Botão"
@@ -254,7 +254,7 @@
             />
           </div>
           
-          <div class="bg-white border-2 border-primary p-5 md:p-6 lg:p-8 shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] text-center relative w-full mt-2 md:mt-2.5 lg:mt-3">
+          <div class="flex-1 bg-white border-2 border-primary p-5 md:p-6 lg:p-8 shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] text-center relative w-full mt-2 md:mt-2.5 lg:mt-3">
             <span class="absolute -top-3 md:-top-3.5 lg:-top-4 left-1/2 -translate-x-1/2 bg-caramel border-2 border-primary px-3 md:px-3.5 lg:px-4 py-0.5 md:py-1 text-[10px] md:text-xs lg:text-sm font-black uppercase tracking-widest text-primary">
               Passo 02
             </span>
@@ -265,13 +265,13 @@
           </div>
         </div>
 
-        <div class="text-4xl md:text-5xl lg:text-6xl text-primary font-black pixelated-img animate-pulse my-2 md:my-0 md:mt-[-50px] lg:mt-[-60px]" data-aos="fade-in" data-aos-delay="400">
+        <div class="text-4xl md:text-5xl lg:text-6xl text-primary font-black pixelated-img animate-pulse my-2 md:my-0 md:mt-[30px] lg:mt-[35px] flex items-start justify-center" data-aos="fade-in" data-aos-delay="400">
           <span class="hidden md:block">➔</span>
           <span class="block md:hidden">⬇</span>
         </div>
 
         <div class="flex flex-col items-center w-full max-w-[280px] md:max-w-[310px] lg:max-w-[340px] group" data-aos="zoom-in" data-aos-delay="500">
-          <div class="w-20 h-20 md:w-24 md:h-24 lg:w-26 lg:h-26 rounded-full bg-dusty-olive border-4 border-primary shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] flex items-center justify-center mb-4 md:mb-5 lg:mb-6 z-10 group-hover:-translate-y-2 transition-transform">
+          <div class="w-20 h-20 md:w-24 md:h-24 lg:w-26 lg:h-26 rounded-full bg-dusty-olive border-4 border-primary shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] flex items-center justify-center mb-4 md:mb-5 lg:mb-6 z-10 group-hover:-translate-y-2 transition-transform shrink-0">
             <img 
               src="../assets/icons/HomePageIcons/ic_feedback.png" 
               alt="Feedback"
@@ -279,7 +279,7 @@
             />
           </div>
           
-          <div class="bg-white border-2 border-primary p-5 md:p-6 lg:p-8 shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] text-center relative w-full mt-2 md:mt-2.5 lg:mt-3">
+          <div class="flex-1 bg-white border-2 border-primary p-5 md:p-6 lg:p-8 shadow-[4px_4px_0_0_var(--color-primary)] md:shadow-[5px_5px_0_0_var(--color-primary)] lg:shadow-[6px_6px_0_0_var(--color-primary)] text-center relative w-full mt-2 md:mt-2.5 lg:mt-3">
             <span class="absolute -top-3 md:-top-3.5 lg:-top-4 left-1/2 -translate-x-1/2 bg-caramel border-2 border-primary px-3 md:px-3.5 lg:px-4 py-0.5 md:py-1 text-[10px] md:text-xs lg:text-sm font-black uppercase tracking-widest text-primary">
               Passo 03
             </span>
