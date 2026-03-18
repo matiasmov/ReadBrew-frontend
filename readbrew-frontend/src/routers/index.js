@@ -10,7 +10,7 @@ const routes = [
   { path: '/login', name: 'login', component: LoginView, meta: { requiresGuest: true } },
   { path: '/register', name: 'register', component: RegisterView, meta: { requiresGuest: true } },
   { path: '/cafeteria', name: 'cafeteria', component: Cafeteria },
-  { path: '/timeline', name: 'timeline', component: TimelineView, meta: {requiresGuest: true} }
+  { path: '/timeline', name: 'timeline', component: TimelineView, meta: {requiresAuth: true} }
 ]
 
 const router = createRouter({
