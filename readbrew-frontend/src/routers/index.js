@@ -3,7 +3,7 @@ import HomePage from '../views/HomePageView.vue'
 import LoginView from '../views/LoginView.vue'
 import RegisterView from '../views/RegisterView.vue'
 import Cafeteria from '../views/CafeteriaView.vue'
-import TimelineView from '../views/Timelineview.vue'
+import TimelineView from '../views/TimelineView.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomePage },
