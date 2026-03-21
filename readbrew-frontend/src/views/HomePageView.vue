@@ -5,9 +5,9 @@
       <header class="w-full bg-dark-lava/40 backdrop-blur-md border border-white/20 rounded-full shadow-[0_8px_32px_rgba(0,0,0,0.15)] px-6 lg:px-8 py-3 flex justify-between items-center transition-all duration-300">
         
         <div class="text-2xl lg:text-3xl font-black text-caramel flex items-center gap-3 tracking-tight cursor-pointer hover:scale-105 transition-transform drop-shadow-md">
-          <span class="text-3xl lg:text-4xl">☕</span> 
+          <span class="text-3xl lg:text-4xl">☕</span> <!--i used emojis because I don't have my own logo yet-->
           <span class="hidden sm:inline text-white">READBREW</span>
-          <span class="inline sm:hidden text-white">RB</span>
+          <span class="inline sm:hidden text-white">RB</span> <!--mainly for mobile-->
         </div>
         
         <nav class="hidden md:flex gap-8 lg:gap-10 items-center text-sm md:text-base font-bold text-white/90 tracking-widest uppercase">
@@ -283,7 +283,8 @@
         </div>
         
         <div class="mt-8 pt-6 border-t border-[#3C322C] text-center text-xs font-bold text-sand uppercase tracking-widest opacity-60">
-          <p>Desenvolvido com ☕, código e pixel art. © 2026 ReadBrew.</p>
+          <p>Desenvolvido com café, © 2026 ReadBrew.</p>
+          <p>@matias.mov</p>
         </div>
         
       </div>
