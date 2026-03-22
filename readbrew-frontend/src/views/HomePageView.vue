@@ -26,7 +26,7 @@
       </header>
     </div>
 
-    <div class="pb-16 lg:pb-20">
+    
       <section class="max-w-7xl mx-auto px-6 pt-16 lg:pt-24 pb-12 flex flex-col md:flex-row items-center gap-12 lg:gap-16">
         <div class="flex-1 text-center md:text-left">
           <h1 class="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tight mb-8 text-primary leading-[1.1] border-l-8 border-caramel pl-6 md:pl-8 text-left">
@@ -96,7 +96,7 @@
         </div>
       </section>
 
-      <section class="max-w-7xl mx-auto px-6 mt-20 md:mt-32">
+      <section class="max-w-7xl mx-auto px-6 mt-20 md:mt-6 md:mb-25">
         <div class="flex flex-col md:flex-row justify-center items-stretch gap-6 md:gap-8 lg:gap-10">
 
           <div class="flex flex-col items-center w-full max-w-[280px] md:max-w-[310px] lg:max-w-[340px] group mx-auto md:mx-0" data-aos="zoom-in" data-aos-delay="100">
@@ -110,7 +110,7 @@
               </span>
               <h3 class="font-black text-primary uppercase text-sm md:text-lg lg:text-xl mb-2 lg:mb-3">Início</h3>
               <p class="text-sm md:text-base lg:text-lg font-bold text-charcoal-brown leading-tight">
-                O usuário seleciona um livro e o adiciona na sua própria estante virtual, podendo iniciá-lo.
+                Você seleciona um livro e o adiciona na sua própria estante virtual, podendo iniciar a leitura mais tarde.
               </p>
             </div>
           </div>
@@ -152,15 +152,67 @@
               </span>
               <h3 class="font-black text-primary uppercase text-sm md:text-lg lg:text-xl mb-2 lg:mb-3">Resenha</h3>
               <p class="text-sm md:text-base lg:text-lg font-bold text-charcoal-brown leading-tight">
-                A leitura é finalizada. O usuário ganha XP e a resenha vai para o mural da comunidade.
+                A leitura é finalizada. Você ganha XP e a sua crítica vai para o mural da comunidade.
               </p>
             </div>
           </div>
 
         </div>
       </section>
+  <div class="bg-dusty-olive bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#9fb490] via-dusty-olive to-dusty-olive flex-1 flex flex-col justify-between">
+      
+      <section class="max-w-7xl mx-auto w-full px-6 pt-20 md:pt-16 pb-12 md:pb-16" data-aos="fade-up">
+        <div class="bg-paper-white border-4 border-charcoal-brown p-6 md:p-10 lg:p-16 rounded-3xl shadow-[12px_12px_0_0_var(--color-charcoal-brown)] flex flex-col md:flex-row gap-8 md:gap-10 lg:gap-12 items-center">
 
-      <section class="max-w-7xl mx-auto px-6 mt-20 md:mt-32">
+          <div class="flex-1 text-center md:text-left" data-aos="fade-right" data-aos-delay="200">
+            <h3 class="text-xl md:text-2xl lg:text-3xl font-black text-secondary uppercase mb-2 md:mb-3 lg:mb-4 tracking-widest">Nossa Missão</h3>
+            <h2 class="text-3xl md:text-4xl lg:text-5xl md:text-6xl font-black text-primary uppercase leading-tight mb-4 md:mb-5 lg:mb-6">
+              Mais que um app, <br/>um refúgio.
+            </h2>
+            <p class="text-lg md:text-xl text-dusty-olive font-bold mb-6 md:mb-7 lg:mb-8 leading-relaxed">
+              A vida moderna é barulhenta. Criamos o ReadBrew para ser o seu momento de paz. Um lugar onde você pode se desconectar do caos, focar nos seus livros e ver as críticas de quem compartilha da mesma paixão.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 md:gap-2.5 lg:gap-3 text-lg md:text-xl lg:text-2xl text-primary font-black uppercase tracking-widest hover:text-caramel transition-colors group">
+              Conheça nossa história
+            </a>
+          </div>
+
+          <div class="flex-1 flex flex-col gap-4 md:gap-6 lg:gap-8 w-full">
+            <div class="bg-paper-white rounded-2xl border-3 border-charcoal-brown p-4 md:p-5 lg:p-6 flex items-center gap-4 md:gap-6 lg:gap-8 hover:-translate-y-1 transition-transform shadow-[4px_4px_0_0_var(--color-charcoal-brown)]" data-aos="fade-left" data-aos-delay="300">
+              <div class="w-16 h-16 md:w-22 md:h-22 lg:w-26 lg:h-26 shrink-0 bg-caramel border-2 md:border-[3px] border-charcoal-brown rounded-full flex items-center justify-center shadow-[4px_4px_0_0_var(--color-charcoal-brown)]">
+                <img src="../assets/icons/HomePageIcons/ic_handshake.png" alt="Aperto de Mão" class="w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 object-contain" />
+              </div>
+              <div>
+                <p class="font-black text-primary uppercase text-sm md:text-base lg:text-lg mb-1">Comunidade Real</p>
+                <p class="text-xs md:text-sm lg:text-base font-bold text-dusty-olive">Encontre pessoas que amam os mesmos gêneros literários que você.</p>
+              </div>
+            </div>
+
+            <div class="bg-paper-white rounded-2xl border-3 border-charcoal-brown p-4 md:p-5 lg:p-6 flex items-center gap-4 md:gap-6 lg:gap-8 hover:-translate-y-1 transition-transform shadow-[4px_4px_0_0_var(--color-charcoal-brown)]" data-aos="fade-left" data-aos-delay="500">
+              <div class="w-16 h-16 md:w-22 md:h-22 lg:w-26 lg:h-26 shrink-0 bg-green-dried-sage border-2 md:border-[3px] border-charcoal-brown rounded-full flex items-center justify-center shadow-[4px_4px_0_0_var(--color-charcoal-brown)]">
+                <img src="../assets/icons/HomePageIcons/ic_bookshelf.png" alt="Relógio e Livro" class="w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 object-contain" />
+              </div>
+              <div>
+                <p class="font-black text-primary uppercase text-sm md:text-base lg:text-lg mb-1">Crescimento Saudável</p>
+                <p class="text-xs md:text-sm lg:text-base font-bold text-dusty-olive">Acompanhe seu progresso sem a pressão de algoritmos.</p>
+              </div>
+            </div>
+
+            <div class="bg-paper-white rounded-2xl border-3 border-charcoal-brown p-4 md:p-5 lg:p-6 flex items-center gap-4 md:gap-6 lg:gap-8 hover:-translate-y-1 transition-transform shadow-[4px_4px_0_0_var(--color-charcoal-brown)]" data-aos="fade-left" data-aos-delay="700">
+              <div class="w-16 h-16 md:w-22 md:h-22 lg:w-26 lg:h-26 shrink-0 bg-brown-caramel border-2 md:border-[3px] border-charcoal-brown rounded-full flex items-center justify-center shadow-[4px_4px_0_0_var(--color-charcoal-brown)]">
+                <img src="../assets/icons/HomePageIcons/ic_time_book.png" alt="Estante de Livros" class="w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 object-contain" />
+              </div>
+              <div>
+                <p class="font-black text-primary uppercase text-sm md:text-base lg:text-lg mb-1">Relaxe sua mente</p>
+                <p class="text-xs md:text-sm lg:text-base font-bold text-dusty-olive">Sem distrações ou rolagem infinita. Apenas você, seu café e sua estante.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+      <section class="max-w-7xl mx-auto px-6 mt-20 md:mb-30 md:mt-12">
         <div class="bg-caramel border-4 border-charcoal-brown rounded-2xl p-6 md:p-10 lg:p-12 shadow-[12px_12px_0_0_var(--color-charcoal-brown)] relative">
           
           <div class="absolute -top-3 md:-top-4 left-1/2 -translate-x-1/2 w-28 md:w-36 h-6 md:h-8 bg-beige-khaki/70 backdrop-blur-sm rotate-2 border-2 border-charcoal-brown/20 shadow-sm"></div>
@@ -215,61 +267,10 @@
           </div>
         </div>
       </section>
-    </div>
-
-    <div class="bg-dusty-olive bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#9fb490] via-dusty-olive to-dusty-olive flex-1 flex flex-col justify-between">
-      
-      <section class="max-w-7xl mx-auto w-full px-6 pt-20 md:pt-16 pb-12 md:pb-16" data-aos="fade-up">
-        <div class="bg-paper-white border-4 border-charcoal-brown p-6 md:p-10 lg:p-16 rounded-3xl shadow-[12px_12px_0_0_var(--color-charcoal-brown)] flex flex-col md:flex-row gap-8 md:gap-10 lg:gap-12 items-center">
-
-          <div class="flex-1 text-center md:text-left" data-aos="fade-right" data-aos-delay="200">
-            <h3 class="text-xl md:text-2xl lg:text-3xl font-black text-secondary uppercase mb-2 md:mb-3 lg:mb-4 tracking-widest">Nossa Missão</h3>
-            <h2 class="text-3xl md:text-4xl lg:text-5xl md:text-6xl font-black text-primary uppercase leading-tight mb-4 md:mb-5 lg:mb-6">
-              Mais que um app, <br/>um refúgio.
-            </h2>
-            <p class="text-lg md:text-xl text-dusty-olive font-bold mb-6 md:mb-7 lg:mb-8 leading-relaxed">
-              A vida moderna é barulhenta. Criamos o ReadBrew para ser o seu momento de paz. Um lugar onde você pode se desconectar do caos, focar nos seus livros e ver as críticas de quem compartilha da mesma paixão.
-            </p>
-            <a href="#" class="inline-flex items-center gap-2 md:gap-2.5 lg:gap-3 text-lg md:text-xl lg:text-2xl text-primary font-black uppercase tracking-widest hover:text-caramel transition-colors group">
-              Conheça nossa história
-            </a>
           </div>
-
-          <div class="flex-1 flex flex-col gap-4 md:gap-6 lg:gap-8 w-full">
-            <div class="bg-paper-white rounded-2xl border-3 border-charcoal-brown p-4 md:p-5 lg:p-6 flex items-center gap-4 md:gap-6 lg:gap-8 hover:-translate-y-1 transition-transform shadow-[4px_4px_0_0_var(--color-charcoal-brown)]" data-aos="fade-left" data-aos-delay="300">
-              <div class="w-16 h-16 md:w-22 md:h-22 lg:w-26 lg:h-26 shrink-0 bg-caramel border-2 md:border-[3px] border-charcoal-brown rounded-full flex items-center justify-center shadow-[4px_4px_0_0_var(--color-charcoal-brown)]">
-                <img src="../assets/icons/HomePageIcons/ic_handshake.png" alt="Aperto de Mão" class="w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 object-contain" />
-              </div>
-              <div>
-                <p class="font-black text-primary uppercase text-sm md:text-base lg:text-lg mb-1">Comunidade Real</p>
-                <p class="text-xs md:text-sm lg:text-base font-bold text-dusty-olive">Encontre pessoas que amam os mesmos gêneros literários que você.</p>
-              </div>
-            </div>
-
-            <div class="bg-paper-white rounded-2xl border-3 border-charcoal-brown p-4 md:p-5 lg:p-6 flex items-center gap-4 md:gap-6 lg:gap-8 hover:-translate-y-1 transition-transform shadow-[4px_4px_0_0_var(--color-charcoal-brown)]" data-aos="fade-left" data-aos-delay="500">
-              <div class="w-16 h-16 md:w-22 md:h-22 lg:w-26 lg:h-26 shrink-0 bg-green-dried-sage border-2 md:border-[3px] border-charcoal-brown rounded-full flex items-center justify-center shadow-[4px_4px_0_0_var(--color-charcoal-brown)]">
-                <img src="../assets/icons/HomePageIcons/ic_bookshelf.png" alt="Relógio e Livro" class="w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 object-contain" />
-              </div>
-              <div>
-                <p class="font-black text-primary uppercase text-sm md:text-base lg:text-lg mb-1">Crescimento Saudável</p>
-                <p class="text-xs md:text-sm lg:text-base font-bold text-dusty-olive">Acompanhe seu progresso sem a pressão de algoritmos.</p>
-              </div>
-            </div>
-
-            <div class="bg-paper-white rounded-2xl border-3 border-charcoal-brown p-4 md:p-5 lg:p-6 flex items-center gap-4 md:gap-6 lg:gap-8 hover:-translate-y-1 transition-transform shadow-[4px_4px_0_0_var(--color-charcoal-brown)]" data-aos="fade-left" data-aos-delay="700">
-              <div class="w-16 h-16 md:w-22 md:h-22 lg:w-26 lg:h-26 shrink-0 bg-brown-caramel border-2 md:border-[3px] border-charcoal-brown rounded-full flex items-center justify-center shadow-[4px_4px_0_0_var(--color-charcoal-brown)]">
-                <img src="../assets/icons/HomePageIcons/ic_time_book.png" alt="Estante de Livros" class="w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 object-contain" />
-              </div>
-              <div>
-                <p class="font-black text-primary uppercase text-sm md:text-base lg:text-lg mb-1">Relaxe sua mente</p>
-                <p class="text-xs md:text-sm lg:text-base font-bold text-dusty-olive">Sem distrações ou rolagem infinita. Apenas você, seu café e sua estante.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
     
+
+  
     <footer class="bg-[#1A1614] w-full mt-auto">
       <div class="max-w-7xl mx-auto px-6 pb-12">
         
