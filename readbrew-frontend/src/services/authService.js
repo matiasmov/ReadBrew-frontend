@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api/v1';
+//const baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api/v1';
+const baseURL = 'http://localhost:8080/api/v1';
 
 const apiClient = axios.create({
   baseURL: baseURL,
@@ -26,11 +27,13 @@ apiClient.interceptors.response.use(
     return response; 
   },
   (error) => {
- 
     if (error.response && (error.response.status === 401 || error.response.status === 403)) {
-  
+      
       localStorage.removeItem('readbrew_token');
-      window.location.href = '/login';
+      
+      if (window.location.pathname !== '/login') {
+        window.location.href = '/login';
+      }
     }
     return Promise.reject(error);
   }
