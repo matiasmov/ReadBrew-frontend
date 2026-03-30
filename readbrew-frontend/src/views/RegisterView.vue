@@ -14,12 +14,22 @@ const form = reactive({
 const errorMessage = ref('')
 const isLoading = ref(false)
 
-const handleRegister = async () => {
+
+const showPrivacyModal = ref(false)
+
+
+const openPrivacyModal = () => {
+  
+  showPrivacyModal.value = true
+}
+
+const handleRegisterWithTerms = async () => {
+  showPrivacyModal.value = false 
   errorMessage.value = ''
   isLoading.value = true
 
   try {
-  
+    
     const data = await registerUser(form.username, form.email, form.password)
     
     if (data && data.token) {
@@ -39,6 +49,45 @@ const handleRegister = async () => {
 <template>
   <div class="min-h-screen bg-sand text-charcoal-brown font-sans flex items-center justify-center p-6 selection:bg-dusty-olive selection:text-white relative">
     
+    <div v-if="showPrivacyModal" class="fixed inset-0 z-[100] flex items-center justify-center p-4">
+      <div class="absolute inset-0 bg-charcoal-brown/80 backdrop-blur-sm" @click="showPrivacyModal = false"></div>
+      
+      <div class="relative w-full max-w-lg bg-paper-white border-4 border-charcoal-brown rounded-2xl p-6 md:p-8 shadow-[12px_12px_0_0_#1A1614] z-[101] animate-bounce-in">
+        
+        <div class="flex justify-between items-center border-b-4 border-charcoal-brown pb-4 mb-4">
+          <h2 class="text-xl md:text-2xl font-black uppercase text-primary tracking-tight flex items-center gap-2">
+            <span class="text-3xl">☕</span> Termos de Uso <!--change to logo later, i don't make yet-->
+          </h2>
+          <button @click="showPrivacyModal = false" class="text-2xl font-black text-charcoal-brown hover:text-red-600 transition-colors">
+            X
+          </button>
+        </div>
+
+        <div class="text-sm font-bold text-charcoal-brown/90 space-y-4 mb-6 text-justify">
+          <p>
+            Para que possamos criar a sua biblioteca virtual, precisamos processar o seu <span class="font-black text-caramel uppercase tracking-wider">e-mail e senha</span>.
+          </p>
+          <p>
+            Essas informações são criptografadas e todo tratamento de dados está de acordo com a <span class="font-black text-caramel uppercase tracking-wider">LGPD</span> (Lei Geral de Proteção de Dados).
+          </p>
+        </div>
+        
+        <div class="flex flex-col sm:flex-row gap-4">
+          <button 
+            @click="showPrivacyModal = false" 
+            class="flex-1 bg-transparent text-charcoal-brown border-4 border-charcoal-brown px-4 py-3 font-black uppercase tracking-widest hover:bg-charcoal-brown hover:text-paper-white transition-all shadow-[4px_4px_0_0_#1A1614] hover:shadow-none hover:translate-x-1 hover:translate-y-1"
+          >
+            Cancelar
+          </button>
+          <button 
+            @click="handleRegisterWithTerms" 
+            class="flex-1 bg-dusty-olive text-paper-white border-4 border-charcoal-brown px-4 py-3 font-black uppercase tracking-widest shadow-[4px_4px_0_0_#1A1614] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all"
+          >
+            Aceito e Quero Criar
+          </button>
+        </div>
+      </div>
+    </div>
     <router-link to="/" class="absolute top-6 left-6 md:top-8 md:left-8 bg-paper-white border-2 border-charcoal-brown rounded-full px-5 py-2.5 text-charcoal-brown font-black uppercase tracking-widest hover:bg-caramel hover:text-paper-white shadow-[4px_4px_0_0_var(--color-charcoal-brown)] transition-all flex items-center gap-2 hover:-translate-x-1 hover:-translate-y-1 duration-300 z-50">
       <span class="text-xl">➔</span> <span class="hidden sm:inline">Voltar ao início</span>
     </router-link>
@@ -55,7 +104,7 @@ const handleRegister = async () => {
           <span class="text-xl">⚠</span> {{ errorMessage }}
         </div>
 
-        <form @submit.prevent="handleRegister" class="flex flex-col gap-5">
+        <form @submit.prevent="openPrivacyModal" class="flex flex-col gap-5">
           <div class="flex flex-col gap-2">
             <label class="text-sm font-black uppercase text-charcoal-brown tracking-wider">Como quer ser chamado?</label>
             <input v-model="form.username" type="text" required minlength="3" placeholder="Seu Apelido ou Nome" class="w-full bg-[#F9F6F0] border-4 border-charcoal-brown rounded-2xl p-4 font-bold text-charcoal-brown placeholder-charcoal-brown/30 focus:outline-none focus:border-caramel focus:-translate-y-1 transition-all shadow-[4px_4px_0_0_var(--color-charcoal-brown)]" />
@@ -111,5 +160,13 @@ const handleRegister = async () => {
 
 * {
   font-family: 'Courier New', Courier, monospace; 
+}
+
+@keyframes bounce-in {
+  0% { transform: scale(0.9); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.animate-bounce-in {
+  animation: bounce-in 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
 </style>
