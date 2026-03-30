@@ -76,7 +76,7 @@ onMounted(() => {
     <main class="flex-1 w-full max-w-7xl mx-auto px-6 pt-32 pb-12">
       
       <h1 class="text-3xl font-black text-white uppercase mb-8 border-b-4 border-white/10 pb-4">
-        Sua Biblioteca Virtual
+        Os mais populares!
       </h1>
 
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
