@@ -8,9 +8,10 @@ const totalPages = ref(1)
 const isLoading = ref(false)
 
 const getHighQualityUrl = (url) => {
-  if (!url || url.includes('default_cover.png')) return url;
-
-  return url.replace('zoom=1', 'zoom=2').replace('&edge=curl', '');
+  if (!url || typeof url !== 'string' || (!url.startsWith('http://') && !url.startsWith('https://'))) {
+      return 'https://placehold.co/400x600...'; 
+  }
+  return url.replace('http://', 'https://').replace('zoom=1', 'zoom=2').replace('&edge=curl', '');
 }
 const handleImageError = (event) => {
     
@@ -22,18 +23,21 @@ const fetchBooks = async (page = 0) => {
   isLoading.value = true;
   
   try {
-    const response = await axios.get(`http://localhost:8080/api/v1/public/library?page=${page}&size=30`);
+
+    //const baseUrl = import.meta.env.VITE_API_BASE_URL
+    const baseUrl = 'http://localhost:8080';
+    const response = await axios.get(`${baseUrl}/api/v1/public/library?page=${page}&size=30`);
     
     if (page === 0) {
       books.value = response.data.content;
     } else {
       books.value = [...books.value, ...response.data.content];
     }
-    
+
     currentPage.value = response.data.number;
     totalPages.value = response.data.totalPages;
   } catch (error) {
-    console.error("Erro ao buscar a vitrine de livros:", error);
+   console.error("Não foi possível carregar o acervo no momento. Tente novamente mais tarde.");
   } finally {
     isLoading.value = false;
   }
