@@ -4,7 +4,9 @@
 
 @theme {
 
+  --color-dark-lava: #4E3A2A;
   --color-primary: #582F0E;
+  --color-coffee: #3C322C;
   --color-secondary: #7F4F24;
   --color-brown-caramel: #936639;
   --color-caramel: #A68A64;
@@ -14,6 +16,7 @@
   --color-dusty-olive: #656D4A;
   --color-ebony: #414833;
   --color-charcoal-brown: #333D29;
+  --color-sand: #E7D8C3;
   --color-paper-white: #F9F6F0;
   --color-pure-white: #FFFFFF;   
 }
