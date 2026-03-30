@@ -210,7 +210,6 @@
           </div>
         </div>
       </section>
-
     
       <section class="max-w-7xl mx-auto px-6 mt-20 md:mb-30 md:mt-12">
         <div class="bg-caramel border-4 border-charcoal-brown rounded-2xl p-6 md:p-10 lg:p-12 shadow-[12px_12px_0_0_var(--color-charcoal-brown)] relative">
