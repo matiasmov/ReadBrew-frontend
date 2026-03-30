@@ -12,7 +12,7 @@
         
         <nav class="hidden md:flex gap-8 lg:gap-10 items-center text-sm md:text-base font-bold text-white/90 tracking-widest uppercase">
           <a href="#" class="hover:text-coffee hover:text-shadow-sm transition-all">Cafeteria</a>
-          <a href="#" class="hover:text-coffee hover:text-shadow-sm transition-all">Clube do Livro</a>
+          <a href="#" class="hover:text-coffee hover:text-shadow-sm transition-all">Biblioteca</a>
         </nav>
 
         <div class="flex gap-4 lg:gap-6 items-center">
