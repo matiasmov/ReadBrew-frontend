@@ -11,7 +11,7 @@ const apiClient = axios.create({
   timeout: 10000, 
 });
 
-// To test, use localStorage.removeItem('readbrew_token') in console '-'
+// To test, use localStorage.removeItem('readbrew_token') in console 
 apiClient.interceptors.request.use((config) => {
   const token = localStorage.getItem('readbrew_token');
   if (token) {
