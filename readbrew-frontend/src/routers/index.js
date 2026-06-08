@@ -5,13 +5,16 @@ import RegisterView from '../views/RegisterView.vue'
 import Cafeteria from '../views/CafeteriaView.vue'
 import TimelineView from '../views/TimelineView.vue'
 import ProfileView from '../views/ProfileView.vue'
+import LibraryView from '../views/LibraryView.vue'
+
 const routes = [
   { path: '/', name: 'home', component: HomePage },
   { path: '/login', name: 'login', component: LoginView, meta: { requiresGuest: true } },
   { path: '/register', name: 'register', component: RegisterView, meta: { requiresGuest: true } },
   { path: '/cafeteria', name: 'cafeteria', component: Cafeteria },
   { path: '/timeline', name: 'timeline', component: TimelineView, meta: { requiresAuth: true } },
-  { path: '/profile', name: 'profile', component: ProfileView, meta: { requiresAuth: true } }
+  { path: '/profile', name: 'profile', component: ProfileView, meta: { requiresAuth: true } },
+  { path: '/library', name: 'library', component: LibraryView, meta: { requiresGuest: true} }
 ]
 
 const router = createRouter({

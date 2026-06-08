@@ -11,7 +11,7 @@ const apiClient = axios.create({
   timeout: 10000, 
 });
 
-// To test, use localStorage.removeItem('readbrew_token') in console '-'
+// To test, use localStorage.removeItem('readbrew_token') in console 
 apiClient.interceptors.request.use((config) => {
   const token = localStorage.getItem('readbrew_token');
   if (token) {
@@ -44,7 +44,8 @@ export const registerUser = async (username, email, password) => {
     const response = await apiClient.post('/auth/register', { 
       username, 
       email, 
-      password 
+      password,
+      agreedToTerms: true
     });
     
     return response.data; 

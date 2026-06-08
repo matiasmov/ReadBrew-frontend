@@ -24,6 +24,10 @@ dist-ssr
 *.sln
 *.sw?
 
+# JetBrains IDEs
+.idea/
+*.iml
+
 # Secrets
 .env
 .env.*

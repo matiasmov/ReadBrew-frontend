@@ -42,7 +42,7 @@ const handleLogin = async () => {
       
       <div class="hidden md:flex md:w-5/12 bg-caramel border-r-4 border-charcoal-brown p-8 flex-col items-center justify-center text-center relative">
         <div class="w-32 h-32 lg:w-40 lg:h-40 bg-paper-white border-4 border-charcoal-brown rounded-full flex items-center justify-center mb-6 transform -rotate-3 hover:rotate-1 transition-transform duration-300 shadow-[8px_8px_0_0_var(--color-charcoal-brown)]">
-          <span class="text-6xl lg:text-7xl pixelated-img">☕</span>
+          <span class="text-6xl lg:text-7xl pixelated-img">img</span>
         </div>
         
         <h2 class="text-3xl lg:text-4xl font-black uppercase text-paper-white mb-4 leading-tight drop-shadow-[2px_2px_0_var(--color-charcoal-brown)]">
